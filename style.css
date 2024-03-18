@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@200;300;400;500;600;700;900&family=Public+Sans:ital@0;1&family=Raleway:ital,wght@0,500;1,500&display=swap');
+.resimSlider{
+    height: 600px;
+}
+
+body{
+    padding-top: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+.navbar{
+    background-color:  #122e44 !important;
+}
+.navbar  .navbar-brand{
+    color: #f2f2f2;
+}
+.navbar a{
+    color: darkgray;
+}
+.navbar span{
+    color: darkgray;
+}
+.navbar-nav .nav-item .nav-link{
+    color: darkgray;
+}
+
+.hakkimizda{
+background-color: #f2f2f2 ;
+}
+.ayrac{
+    border: none;
+    border-top: 3px solid #343a40;
+    max-width: 250px;
+    margin: 25px auto;
+}
+.igri{
+    color: #343a40;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid #f2f2f2;
+    background-color: #f2f2f2;
+}
+.ibeyaz{
+    color: #343a40;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid #fff;
+    background-color: #fff;
+}
+
+.ekipCard > img:hover{
+    opacity: 0.8;
+}
+.galeri{
+    background-color: #f2f2f2;
+}
+.figure:hover{
+    opacity: 0.8;
+}
+.footer{
+    background-color:  #122e44;
+}
+

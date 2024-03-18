@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paylaştıkça</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- menu -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          >PAYLAŞTIKÇA | <span>Bilgi Paylaştıkça Çoğalır...</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#carouselExampleIndicators"
+                >Anasayfa</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#hakkimizda">Hakkkımızda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ekibimiz">Ekibimiz</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#galeri">Galeri</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#iletisim">İletişim</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- home -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./images/sl1.jpg"
+            class="d-block w-100 resimSlider"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./images/sl2.jpg"
+            class="d-block w-100 resimSlider"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./images/sl3.jpg"
+            class="d-block w-100 resimSlider"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- hakkımızda -->
+    <section class="p-5 text-center hakkimizda" id="hakkimizda">
+      <div class="container">
+        <h2 class="mb-5 font-weight-bold">Hakkımızda</h2>
+
+        <hr class="ayrac" />
+        <span class="igri"><i class="fa-solid fa-leaf"></i></span>
+
+        <p>
+          Lorem, Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Similique blanditiis accusantium soluta nesciunt optio debitis rerum!
+          Deserunt dolores labore quo praesentium! Labore iusto nisi, ex officia
+          ipsum tenetur amet voluptate? ipsum dolor sit amet consectetur
+          adipisicing elit. Voluptatum officiis placeat repudiandae sit
+          excepturi, asperiores expedita voluptas, voluptatem maiores non
+          exercitationem. Impedit et aspernatur ad a odio recusandae vero
+          minima.
+        </p>
+
+        <p>
+          Lorem Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem,
+          sed eos magni culpa dolor ex aspernatur. Tempora nisi distinctio unde
+          nostrum. Beatae, minus! Et vel architecto, ipsum debitis impedit
+          aperiam? ipsum dolor sit amet consectetur adipisicing elit. Eum
+          laboriosam necessitatibus magnam repellendus tenetur iste. Ipsa
+          necessitatibus similique, explicabo ea, itaque incidunt amet, harum
+          voluptate aliquid veritatis ab et voluptates.
+        </p>
+      </div>
+    </section>
+
+    <!-- ekibimiz -->
+    <section class="p-5 text-center ekibimiz" id="ekibimiz">
+      <div class="container">
+        <h2 class="mb-5 font-weight-bold">Ekibimiz</h2>
+
+        <hr class="ayrac" />
+        <span class="ibeyaz"><i class="fa-solid fa-leaf"></i></span>
+        
+
+        <div class="row row-cols-2 row-cols-md-6 g-4">
+          <div class="col">
+            <div class="card shadow ekipCard">
+              <img src="./images/ekip1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Ali Cangöz</h5>
+                <p class="card-text">Genel Müdür</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow ekipCard">
+              <img src="./images/ekip2.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Ayşe Can</h5>
+                <p class="card-text">IT Uzmanı</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow ekipCard">
+              <img src="./images/ekip4.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Ahmet Demir</h5>
+                <p class="card-text">Software</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow ekipCard">
+              <img src="./images/ekip2.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Eyşan Çam</h5>
+                <p class="card-text">Genel Müdür</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow ekipCard">
+              <img src="./images/ekip1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Asaf Yılmaz</h5>
+                <p class="card-text">Stajyer</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow ekipCard">
+              <img src="./images/ekip4.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Eymen Türk</h5>
+                <p class="card-text">Software</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- galeri -->
+    <section class="p-5 text-center galeri" id="galeri">
+      <div class="container">
+        <h2 class="mb-5 font-weight-bold">Galeri</h2>
+
+        <hr class="ayrac" />
+        <span class="igri"><i class="fa-solid fa-leaf"></i></span>
+
+         <div class="row">
+
+            <div class="col-md-3">
+              <figure class="figure">
+                <a href="./images/r1.jpg">
+                <img src="./images/r1.jpg" class="figure-img img-fluid rounded shadow" alt="...">
+                </a>
+              </figure>
+            </div>
+
+            
+            <div class="col-md-3">
+              <figure class="figure">
+                <a href="./images/r6.jpg">
+                <img src="./images/r6.jpg" class="figure-img img-fluid rounded shadow" alt="...">
+                </a>
+              </figure>
+            </div>
+
+            
+            <div class="col-md-3">
+              <figure class="figure">
+                <a href="./images/r1.jpg">
+                <img src="./images/r1.jpg" class="figure-img img-fluid rounded shadow" alt="...">
+                </a>
+              </figure>
+            </div>
+
+            
+            <div class="col-md-3">
+              <figure class="figure">
+                <a href="./images/r6.jpg">
+                <img src="./images/r6.jpg" class="figure-img img-fluid rounded shadow" alt="...">
+                </a>
+              </figure>
+            </div>
+
+         </div>
+
+         <div class="row">
+
+          <div class="col-md-3">
+            <figure class="figure">
+              <a href="./images/r6.jpg">
+              <img src="./images/r6.jpg" class="figure-img img-fluid rounded shadow" alt="...">
+              </a>
+            </figure>
+          </div>
+
+          
+          <div class="col-md-3">
+            <figure class="figure">
+              <a href="./images/r1.jpg">
+              <img src="./images/r1.jpg" class="figure-img img-fluid rounded shadow" alt="...">
+              </a>
+            </figure>
+          </div>
+
+          
+          <div class="col-md-3">
+            <figure class="figure">
+              <a href="./images/r6.jpg">
+              <img src="./images/r6.jpg" class="figure-img img-fluid rounded shadow" alt="...">
+              </a>
+            </figure>
+          </div>
+
+          
+          <div class="col-md-3">
+            <figure class="figure">
+              <a href="./images/r1.jpg">
+              <img src="./images/r1.jpg" class="figure-img img-fluid rounded shadow" alt="...">
+              </a>
+            </figure>
+          </div>
+
+       </div>
+
+      </div>
+      </section>
+
+<!-- iletişim -->
+<section class="p-5 text-center iletisim" id="iletisim">
+  <div class="container">
+    <h2 class="mb-5 font-weight-bold">İletişim</h2>
+
+    <hr class="ayrac" />
+    <span class="ibeyaz"><i class="fa-solid fa-leaf"></i></span>
+   
+  <form action="" class="col-md-10 text-start m-auto border-0">
+
+    <div class="form-group row mt-3">
+      <label for="" class="col-md-4 align-self-center fw-light"> Ad:</label>
+      <input type="text" class="form-control-lg col-md-8 border border-light-subtle">
+    </div>
+
+    <div class="form-group row mt-3">
+      <label for="" class="col-md-4 align-self-center fw-light"> Soyad:</label>
+      <input type="text" class="form-control-lg col-md-8 border border-light-subtle">
+    </div>
+
+    <div class="form-group row mt-3">
+      <label for="" class="col-md-4 align-self-center fw-light">Email:</label>
+      <input type="email" class="form-control-lg  col-md-8 border border-light-subtle">
+    </div>
+
+    <div class="form-group row mt-3">
+      <label for="" class="col-md-4 align-self-center fw-light">Mesajınız:</label>
+     <textarea name="" id="" cols="30" rows="10" class="form-control-lg col-md-8 border-light-subtle"></textarea>
+    </div>
+
+    <div class="form-group row mt-3">
+    <button type="submit" class="col-md-3 btn btn-primary">GÖNDER</button>
+    </div>
+  </form>
+</div>
+</section>
+
+<!-- footer -->
+<div class="footer text-light-center">
+<p class="text-center p-5 mb-0">
+  <span class="text-light fw-light">Tüm Hakları Saklıdır &copy; | 2024</span> <br>
+  <span class="text-light fw-light">Designed by <b>PAYLAŞTIKÇA</b></span>
+</p>
+
+
+
+
+
+</div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
